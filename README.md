@@ -9,6 +9,10 @@ examplexx.pyは例です。
 > Makefileの末尾に必ず改行を入れて下さい
 
 #### 利用方法
+
+'running.txt'に記述された実行方法に則って順番に実行．
+
+実行コマンドと出力結果(またはエラー内容)が'output/output_log.txt'に書き込まれる．
 ```
 % make run
 実行中: python example01.py
@@ -23,4 +27,4 @@ examplexx.pyは例です。
 output ディレクトリをクリーンアップ中...
 クリーンアップ完了！
 ```
-
+'output'ディレクトリの中身を空にする．
