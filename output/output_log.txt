@@ -1,0 +1,28 @@
+実行ログ: 2024年 12月19日 木曜日 11時52分41秒 JST
+実行中: python example01.py
+0
+1
+2
+3
+4
+実行中: python example02.py
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+実行中: python example03.py This_is_argv[1] This_is_argv[2]
+This_is_argv[1]
+This_is_argv[2]
+実行中: python example04.py output/output.txt This_is_Python!
+Text written to output/output.txt
