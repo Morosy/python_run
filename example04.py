@@ -1,13 +1,11 @@
 import sys
 
-output = sys.argv[1]
+path = sys.argv[1]
+text = sys.argv[2]
 
-for i in range(1, 16):
-    if i % 3 == 0 and i % 5 == 0:
-        print('FizzBuzz', file=open(output, 'a'))
-    elif i % 3 == 0:
-        print('Fizz', file=open(output, 'a'))
-    elif i % 5 == 0:
-        print('Buzz', file=open(output, 'a'))
-    else:
-        print(i, file=open(output, 'a'))
+try:
+    with open(path, 'w', encoding='utf-8') as file:
+        file.write(text)
+    print(f"Text written to {path}")
+except Exception as e:
+    print(f"An error occurred: {e}")
