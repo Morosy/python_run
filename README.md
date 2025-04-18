@@ -1,7 +1,7 @@
 ## python_run
 大量のPythonスクリプトを一括で実行する
 
-examplexx.pyは例です。
+example[xx].pyは例です。
 
 実際の実行コマンドを `running.txt` に記入
 
